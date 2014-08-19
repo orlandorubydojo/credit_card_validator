@@ -7,8 +7,6 @@ will take the type of credit card along with the credit card number and validate
 the credit card number we will use the Luhn algorithm. To validate the type we will follow the
 chart below.
 
-```
-
 Here are the steps for the Luhn algorithm (from wikipedia [Luhn Algorithm](http://en.wikipedia.org/wiki/Luhn_algorithm))
 
 1) From the rightmost digit moving left, double the value of every second digit
@@ -35,6 +33,8 @@ To test for the card type the credit card must begin with the correct number and
 +------------+-------------+---------------+
 | Visa       | 4           | 13 or 16      |
 +------------+-------------+---------------+
+
+```
 
 Usage
 ======
